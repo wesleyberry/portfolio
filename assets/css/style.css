@@ -213,6 +213,13 @@ a:-webkit-any-link {
     text-align: left;
     margin-left: 24px;
 }
+.aboutMeText {
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    line-height: 30px;
+    word-spacing: 4px;
+}
 /* ------------Projects-------- */
 #myWork {
     opacity: 1 !important;
