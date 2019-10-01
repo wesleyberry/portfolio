@@ -346,10 +346,10 @@ body > footer > div.row{
         padding-left: 0;
         padding: 2%;
     }
-    /* #myWork > div > div.row > div {
-        width: 92%;
-        left: 4%;
-    } */
+    #myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,
+    #myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {
+        padding-left: 0;
+    }
     .center {
         padding-left: 0;
         padding-right: 0;
@@ -667,6 +667,10 @@ body > footer > div.row{
     #myWork > div > div:nth-child(2) > img,
     #myWork > div > div:nth-child(1) > img {
         padding-left: 0;
+    }
+    #myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,
+    #myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {
+        padding-left: 15px;
     }
     #mixImage {
         order: 2;
