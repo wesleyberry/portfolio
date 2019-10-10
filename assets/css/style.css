@@ -23,7 +23,7 @@ html {
     margin-left: 0;
 }
 p {
-    color: rgb(126, 126, 126);
+    color: rgb(212, 212, 212);
 }
 a {
     color: #588A0B !important;
@@ -37,14 +37,14 @@ td {
 h4,
 h5 {
     text-align: center;
-    color: rgb(207, 207, 207);
+    color: rgb(252, 252, 252);
 }
 ul {
-    color: rgb(207, 207, 207);
+    color: rgb(212, 212, 212);
     list-style-type: square;
 }
 li {
-    color: #7e7e7e;
+    color: rgb(192, 192, 192);
 }
 /* --------Outside the containers-------- */
 .social {
@@ -186,7 +186,7 @@ a:-webkit-any-link {
 .aboutMeHeader {
     overflow: hidden;
     text-align: center;
-    color: rgb(207, 207, 207);
+    color: rgb(255, 255, 255);
 }
 .aboutMeHeader:before,
 .aboutMeHeader:after {
@@ -241,9 +241,17 @@ a:-webkit-any-link {
 .textForGig {
     border-radius: 6px;
     font-size: 18px;
+    line-height: 1.4;
+}
+.descripText {
+    color: rgb(182, 182, 182);
 }
 .techUsed {
     text-align: center;
+}
+.techUsedText {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 .fab.fa-linkedin-in,
 .fab.fa-github,
@@ -364,6 +372,7 @@ body > footer > div.row{
     }
     .projectTitle {
         margin-bottom: 20px;
+        font-size: 30px;
     }
     #myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,
     #myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {
@@ -475,9 +484,6 @@ body > footer > div.row{
     .titleName {
         font-size: 70px;
         margin-bottom: 2vh;
-    }
-    .titleProfession {
-        font-size: 50px;
     }
     .titleButton {
         font-size: 24px;
