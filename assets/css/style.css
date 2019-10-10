@@ -206,19 +206,18 @@ a:-webkit-any-link {
     left: 0.5em;
     margin-right: -50%;
 }
-.aboutMeText {
-    margin-top: 5%;
-}
 .skillsHeader {
     text-align: left;
     margin-left: 24px;
 }
 .aboutMeText {
+    margin-top: 5%;
     display: flex;
     align-items: center;
-    letter-spacing: 1px;
-    line-height: 30px;
+    letter-spacing: 0px;
     word-spacing: 4px;
+    font-size: 20px;
+    line-height: 1.4;
 }
 /* ------------Projects-------- */
 #myWork {
@@ -241,6 +240,7 @@ a:-webkit-any-link {
 }
 .textForGig {
     border-radius: 6px;
+    font-size: 18px;
 }
 .techUsed {
     text-align: center;
@@ -360,9 +360,10 @@ body > footer > div.row{
     }
     .textForGig {
         background-color: hsl(0, 0%, 0%, .75);
-        padding-right: 0;
-        padding-left: 0;
         padding: 2%;
+    }
+    .projectTitle {
+        margin-bottom: 20px;
     }
     #myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,
     #myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {
@@ -426,7 +427,6 @@ body > footer > div.row{
         height: auto;
     }
     .textForGig {
-        padding: 2%;
         height: auto;
     }
     #myWork > div > div:nth-child(4) > div,
@@ -596,7 +596,6 @@ body > footer > div.row{
     }
     .aboutMeText {
         margin-top: 4px;
-        font-size: 20px;
     }
     .experience {
         margin-top: 30px;
@@ -612,7 +611,6 @@ body > footer > div.row{
         height: auto;
     }
     .textForGig {
-        padding: 1%;
         height: auto;
     }
     #myWork > div > div:nth-child(4) > div,
@@ -670,7 +668,6 @@ body > footer > div.row{
         max-height: 300px;
     }
     .textForGig {
-        padding: 1%;
         height: auto;
     }
     #myWork > div > div:nth-child(4) > div,
@@ -752,7 +749,6 @@ body > footer > div.row{
         max-height: none;
     }
     .textForGig {
-        padding: 1%;
         height: auto;
     }
     .workBookDiv,
