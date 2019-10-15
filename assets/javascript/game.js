@@ -97,3 +97,14 @@ sr.reveal('.collaborate', {
     origin: 'top',
     distance: '200px'
 });
+
+window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
